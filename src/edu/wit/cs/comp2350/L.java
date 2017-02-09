@@ -70,6 +70,7 @@ public class L extends LocationHolder {
 			h++;
 			d = d.right;
 		}
+
 		return h;
 	}
 

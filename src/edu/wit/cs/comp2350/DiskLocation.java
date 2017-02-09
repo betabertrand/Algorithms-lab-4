@@ -19,6 +19,7 @@ public class DiskLocation {
 			return true;
 		return false;
 	}
+
 	
 	public boolean equals(DiskLocation that) {
 		return (this.track == that.track && this.sector == that.sector);
